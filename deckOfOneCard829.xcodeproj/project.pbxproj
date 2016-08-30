@@ -12,6 +12,11 @@
 		79BA20661D7491A6004DB33A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79BA20641D7491A6004DB33A /* Main.storyboard */; };
 		79BA20681D7491A6004DB33A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79BA20671D7491A6004DB33A /* Assets.xcassets */; };
 		79BA206B1D7491A6004DB33A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79BA20691D7491A6004DB33A /* LaunchScreen.storyboard */; };
+		79BA20731D7491C5004DB33A /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BA20721D7491C5004DB33A /* NetworkController.swift */; };
+		79BA20751D7495A3004DB33A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BA20741D7495A3004DB33A /* Card.swift */; };
+		79BA20771D749F07004DB33A /* CardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BA20761D749F07004DB33A /* CardController.swift */; };
+		79BA207B1D74AB14004DB33A /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BA207A1D74AB14004DB33A /* ImageController.swift */; };
+		79BA207D1D74B446004DB33A /* json.png in Resources */ = {isa = PBXBuildFile; fileRef = 79BA207C1D74B446004DB33A /* json.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		79BA20671D7491A6004DB33A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79BA206A1D7491A6004DB33A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79BA206C1D7491A6004DB33A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79BA20721D7491C5004DB33A /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		79BA20741D7495A3004DB33A /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		79BA20761D749F07004DB33A /* CardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardController.swift; sourceTree = "<group>"; };
+		79BA207A1D74AB14004DB33A /* ImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageController.swift; path = ../ImageController.swift; sourceTree = "<group>"; };
+		79BA207C1D74B446004DB33A /* json.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = json.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +66,13 @@
 			children = (
 				79BA20601D7491A6004DB33A /* AppDelegate.swift */,
 				79BA20621D7491A6004DB33A /* ViewController.swift */,
+				79BA20741D7495A3004DB33A /* Card.swift */,
+				79BA20761D749F07004DB33A /* CardController.swift */,
+				79BA207A1D74AB14004DB33A /* ImageController.swift */,
+				79BA20721D7491C5004DB33A /* NetworkController.swift */,
 				79BA20641D7491A6004DB33A /* Main.storyboard */,
 				79BA20671D7491A6004DB33A /* Assets.xcassets */,
+				79BA207C1D74B446004DB33A /* json.png */,
 				79BA20691D7491A6004DB33A /* LaunchScreen.storyboard */,
 				79BA206C1D7491A6004DB33A /* Info.plist */,
 			);
@@ -123,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79BA206B1D7491A6004DB33A /* LaunchScreen.storyboard in Resources */,
+				79BA207D1D74B446004DB33A /* json.png in Resources */,
 				79BA20681D7491A6004DB33A /* Assets.xcassets in Resources */,
 				79BA20661D7491A6004DB33A /* Main.storyboard in Resources */,
 			);
@@ -135,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79BA20771D749F07004DB33A /* CardController.swift in Sources */,
 				79BA20631D7491A6004DB33A /* ViewController.swift in Sources */,
 				79BA20611D7491A6004DB33A /* AppDelegate.swift in Sources */,
+				79BA20731D7491C5004DB33A /* NetworkController.swift in Sources */,
+				79BA20751D7495A3004DB33A /* Card.swift in Sources */,
+				79BA207B1D74AB14004DB33A /* ImageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
